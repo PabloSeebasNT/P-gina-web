@@ -1,0 +1,115 @@
+/* ====================================================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Letra lol',sans-serif;
+    background-color: #f0f0f0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none 
+}
+
+
+/* ------------------------------------------------------- */
+
+/* ====================================================================================== */
+
+/*                                          Navbar                                        */
+
+/* ====================================================================================== */
+.navbar {
+
+    background: -webkit-radial-gradient(top, rgb(11, 45, 48) 10%, black 90%);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+
+    top: 0;
+    position: fixed;
+    width: 100%;
+
+    font-family: 'Letra lol bold',sans-serif;
+    box-shadow: 0 0 10px 1px rgb(0, 0, 0);
+
+    z-index: 10;
+}
+
+.elemento {
+    margin-left: 0px;
+    margin-right: 0px;
+
+    font-family: 'Letra lol',sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    padding: 6px 6px;
+    border-radius: 10px;
+}
+
+.elemento:hover {
+    background-color: #494949aa;
+    cursor: pointer;
+}
+
+#img_navbar_grafo {
+    height: auto;
+    width: 70px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - */
+
+.texto {
+    margin-right: 50px;
+    padding-top: 2px;
+    padding-left: 2px;
+    font-size: 9px;
+
+    color: #666666;
+}
+
+
+/* ====================================================================================== */
+
+/*                                          Portada                                       */
+
+/* ====================================================================================== */
+
+
+.Portada {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+    height: auto;
+    width: 100%;
+
+    /* overflow: hidden; */
+    /* position: relative; */
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Letra lol bold',sans-serif;
+    font-size: 80px;
+}
+/* ------------------------------------------------------- */
+
+#imagen_fondo_portada {
+    height: auto;
+    width: 70%;
+
+    z-index: 1;
+}
+
+

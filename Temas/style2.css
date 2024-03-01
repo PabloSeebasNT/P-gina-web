@@ -1,0 +1,38 @@
+
+body{
+    background-color: rgb(243, 243, 224);
+}
+
+.encabezado{
+
+    background-color: rgb(34, 246, 246);
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Letra lol',sans-serif;
+    font-size: 35px;
+}
+
+l1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+l1 img{
+    height: auto;
+    max-width: 300px;
+    margin-right: 50px;
+}
+
+p{
+    font-size: 20;
+}
+
+.texto{
+
+    text-align: center;
+    font-family: 'Letra lol',sans-serif;
+    font-size: 25px;
+}
